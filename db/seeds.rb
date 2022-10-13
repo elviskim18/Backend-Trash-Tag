@@ -22,4 +22,10 @@
   Tag.create(name:"Rubber", post_id:3)
   Tag.create(name:"Glass", post_id:4)
   Tag.create(name:"Metal", post_id:5)
+
+  Trash.create(description: "Disposed couch", image: "https://drive.google.com/file/d/1zH9S18xK-hlbrX5jJ3PU3Ez-_4xJ2KIC/view?usp=sharing", lattitude:-1.2139534971111, longitude:36.90261266498959, user_id:1)
+  Trash.create(description: "Glass bottles", image: "https://drive.google.com/file/d/1_p1SC0hqKRgS0BOm9TWXQmZXbJNo-5Lb/view?usp=sharing", lattitude:-1.2287130213198558, longitude:36.87926671716787, user_id:2)
+  Trash.create(description: "Used tires", image: "https://drive.google.com/file/d/15FgFDFcyDszT2H4dII3pjQ6UQdm_E2jW/view?usp=sharing", lattitude:-1.2826017471420281, longitude:36.8442477954353, user_id:3)
+  Trash.create(description: "Disposed glass bottles", image: "https://drive.google.com/file/d/1CXrE5ExSxYKBdI_-FoIx2iMcYae19FYD/view?usp=sharing", lattitude:-1.2692154798395958, longitude:36.89643285527208, user_id:4)
+  Trash.create(description: "Metals", image: "https://drive.google.com/file/d/1EF-92q_3aQIz2V7dLXh95F8xsX-WzcnQ/view?usp=sharing", lattitude:-1.268872241302198, longitude:36.85763738315658, user_id:5)
   
