@@ -72,29 +72,26 @@ The site uses React to render the frontend and uses a Rails APi to fetch data
 
 #### Set up
 clone the repo using the command
-- $git clone https://github.com/elviskim18/e-Health.git
+- $git clone https://github.com/elviskim18/Backend-Trash-Tag.git
 change directory using command
-- $cd backend/phase-3-sinatra-react-project
-- run bundle exec run server in the terminal
-- cd back to /frontend in main parent folder
-- open Vs code by running code .
-- run npm install
-- run npm start
+- $cd Backend-Trash-Tag
+- run code .
+- On the terminal run rails s
 
+### endpoints
 
-#### live link
- - run the following live link in your browser  
- - To get login check the doctors database or register 
- - You can test out logins with this:
- - username : faithneema@gmail.com
- - password : 333
+- [GET] /users `list all users`
+- [POST] /login `login to the site`
+- [POST] /signup `signup a new user`
+- [GET] /posts `get all posts from different users`
+- [DELETE] post/:id `Update inforamtion of a post`
 
 
 ***
 ## How to use the project
-The project folder is divided into two folders, mainly **backend** and **frontend**. The backend folder contains several folders. The app folder contains the models and controllers for the backend. It also has a db folder that contains the active record migrations together with the seed files.
+The project folder contains a config file that contains a **route.rb** file that has all our routing needed for our frontend
 
-The **frontend** contains several necessary folders. **public** contains the main index file that all the app runs from. The **src** folder contains the **components** folder that holds all the components running our SPA. We also have a CSS folder that holds **SASS** files ment for styling our components.
+
 ***
 ### Contributing to the project
 Fork the repo. Create a new branch in your terminal(git checkout -b improve-feature). Install the prerequisites. Make appropriate changes in file(s). Add the changes and commit them (git commit -am "improvements"). Push to the branch and create a pull request.
