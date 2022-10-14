@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :trashes
+  resources :trashes, only: [:create]
   resources :tags
   resources :posts, only: [:create, :index, :destroy, :update]
   resources :users, only: [:create, :index, :show, :update]
